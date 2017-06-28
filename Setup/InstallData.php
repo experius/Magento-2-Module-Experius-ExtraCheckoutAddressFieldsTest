@@ -58,20 +58,20 @@ class InstallData implements InstallDataInterface
             ]]);
         $attribute->save();
 
-        $installer->getConnection()->addColumn(
-            $installer->getTable('quote_address'),
+        $setup->getConnection()->addColumn(
+            $setup->getTable('quote_address'),
             'digi_code',
             [
-                'type' => 'varchar',
+                'type' => 'text',
                 'length' => 255
             ]
         );
 
-        $installer->getConnection()->addColumn(
-            $installer->getTable('sales_order_address'),
+        $setup->getConnection()->addColumn(
+            $setup->getTable('sales_order_address'),
             'digi_code',
             [
-                'type' => 'varchar',
+                'type' => 'text',
                 'length' => 255
             ]
         );
