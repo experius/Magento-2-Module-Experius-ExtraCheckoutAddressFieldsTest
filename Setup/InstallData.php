@@ -63,7 +63,8 @@ class InstallData implements InstallDataInterface
             'digi_code',
             [
                 'type' => 'text',
-                'length' => 255
+                'length' => 255,
+                'comment' => ''
             ]
         );
 
@@ -72,7 +73,8 @@ class InstallData implements InstallDataInterface
             'digi_code',
             [
                 'type' => 'text',
-                'length' => 255
+                'length' => 255,
+                'comment' => ''
             ]
         );
     }
