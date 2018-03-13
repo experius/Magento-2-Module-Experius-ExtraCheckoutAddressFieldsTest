@@ -64,7 +64,7 @@ class InstallData implements InstallDataInterface
             [
                 'type' => 'text',
                 'length' => 255,
-                'comment' => ''
+                'comment' => 'Digi Code'
             ]
         );
 
@@ -74,7 +74,7 @@ class InstallData implements InstallDataInterface
             [
                 'type' => 'text',
                 'length' => 255,
-                'comment' => ''
+                'comment' => 'Digi Code'
             ]
         );
     }
